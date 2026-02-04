@@ -109,7 +109,8 @@ Güvenlik sistemi için:
   Frigate kurulumu
   Home Assistant notification blueprint entegrasyonu
   Cloudflare Tunnel yapılandırması
-  
+
+  **Android Uygulaması** beta sürümünde yayınlanmıştır! https://github.com/berkemutluu/Arkeoapp/releases/tag/v1-mobile 
 
 Lisans
 Bu proje MIT Lisansı ile lisanslanmıştır.
