@@ -57,9 +57,15 @@ Analog CCTV Kamera
 Google Cloud üzerinde host edilen web arayüzü
 
 Özellikler:
-  Gerçek zamanlı yüz tanıma
+  Gerçek zamanlı yüz tanıma ve takip etme
+
+  <img width="1249" height="852" alt="Screenshot 2026-02-04 at 17 32 01" src="https://github.com/user-attachments/assets/b43a6608-573c-42f9-93bb-5906c9e85d27" />
+
   Şüpheli hareket algılama
   Anlık mobil bildirim
+  
+  ![Bildschirmfoto 2026-02-04 um 5 37 18 PM](https://github.com/user-attachments/assets/97e0ec51-7839-4716-9b1c-01b1a8a9ed4d)
+
   İnternete açık port gerekmeden Cloudflare Tunnel ile güvenli erişim
   Google Cloud üzerinde merkezi web paneli
 
@@ -75,6 +81,7 @@ Video & IoT Katmanı:
   RTSP stream → Frigate → Home Assistant → Bildirim altyapısı
 Network:
   Cloudflare Tunnel ile güvenli uzaktan erişim
+<img width="586" height="357" alt="Screenshot 2026-02-04 at 17 38 56" src="https://github.com/user-attachments/assets/9000702c-1aaf-45ea-ab51-779ad75e9322" />
 
   
 Kullanılan Teknolojiler
@@ -86,6 +93,7 @@ Kullanılan Teknolojiler
     Home Assistant, Companion App
   Network & Security:
     Cloudflare Tunnel
+    
   Cloud:
     Google Cloud Platform (GCP)
 
@@ -105,3 +113,7 @@ Güvenlik sistemi için:
 
 Lisans
 Bu proje MIT Lisansı ile lisanslanmıştır.
+
+Teşekkürler:
+Frigate: [frigate.video](https://frigate.video)
+Home Assistant: https://www.home-assistant.io 
