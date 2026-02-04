@@ -1,0 +1,182 @@
+export type Language = 'en' | 'tr';
+
+export const translations = {
+  en: {
+    appTitle: "ARKEOAPP",
+    appSubtitle: "Digital Archaeology Suite",
+    apiKeyBtn: "API Key",
+    loading: "Loading Arkeoapp...",
+    connectKeyTitle: "Connect API Key",
+    connectKeyDesc: "To access the high-fidelity reconstruction tools (Gemini 3 Pro Image), you must connect a paid Google Cloud Project API key.",
+    connectKeyBtn: "Connect API Key",
+    billingDocs: "View Billing Documentation & Requirements",
+    footerCopyright: "© {year} Arkeoapp. Powered by Gemini.",
+    footerTagline: "Unearthing the past with the intelligence of the future.",
+    
+    // Nav
+    navRestoration: "Site Restoration",
+    navRestorationDesc: "Transform ruins into ancient glory",
+    navTranslation: "Text Decipher",
+    navTranslationDesc: "Translate ancient hieroglyphs & text",
+    navMosaic: "Mosaic Fixer",
+    navMosaicDesc: "Complete fragmented ancient art",
+    navVase: "Ceramic Repair",
+    navVaseDesc: "Reassemble broken vases & pottery",
+    navFrigated: "Security",
+    navFrigatedDesc: "Secure External Access",
+
+    // Common
+    uploadImage: "Upload an Image",
+    uploadFormat: "JPG, PNG supported",
+    clickToChange: "Click to change image",
+    loadingSpinner: "Consulting the oracles...",
+    permissionError: "Permission denied. Your API Key may not have access to this model (Gemini 3 Pro). Please select a paid project key.",
+    changeKey: "Change API Key",
+    tryAgain: "Try Again",
+    download: "Download Result",
+    before: "BEFORE",
+    after: "AFTER",
+    dragSlider: "Drag the slider to compare.",
+    broken: "BROKEN",
+    restored: "RESTORED",
+    original: "ORIGINAL",
+    fragment: "FRAGMENT",
+    completed: "COMPLETED",
+
+    // Restoration
+    restorationTitle: "Architectural Restoration",
+    restorationSubtitle: "Upload a photo of a ruin or modern site to reveal its ancient glory.",
+    restorationLabel: "Select a Site to Restore",
+    restorationContextLabel: "Archaeologist's Field Notes (Optional)",
+    restorationContextPlaceholder: "E.g., Roman Forum, Temple of Jupiter, 1st Century AD. This was a public meeting place with marble columns and a red tiled roof...",
+    restorationContextHint: "Providing context helps the AI reconstruct accurate details.",
+    restorationBtn: "Invoke Restoration",
+    restorationResultTitle: "Restored Vision",
+    restorationError: "Failed to restore image. The spirits are quiet today.",
+
+    // Translation
+    translationTitle: "Epigraphic Translator",
+    translationSubtitle: "Upload an image of ancient script (stone, papyrus, clay tablet) to translate it.",
+    translationLabel: "Upload Ancient Text",
+    translationTargetLabel: "Target Language",
+    translationBtn: "Decipher Text",
+    translationError: "Could not decipher the text. It may be too eroded or obscure.",
+    
+    // Mosaic
+    mosaicTitle: "Mosaic Reconstruction",
+    mosaicSubtitle: "Upload a fragmented mosaic to see it seamlessly completed.",
+    mosaicLabel: "Upload Mosaic Fragment",
+    mosaicContextLabel: "Mosaic Details (Optional)",
+    mosaicContextPlaceholder: "E.g., Roman floor mosaic featuring a lion hunt, 2nd Century Antioch style...",
+    mosaicContextHint: "Providing details helps the AI fill in missing figures accurately.",
+    mosaicBtn: "Complete Pattern",
+    mosaicResultTitle: "Completed Masterpiece",
+    mosaicError: "Unable to complete the mosaic pattern.",
+    
+    // Vase
+    vaseTitle: "Ceramic Reconstruction",
+    vaseSubtitle: "Digitally reassemble broken pottery, vases, and clay artifacts.",
+    vaseLabel: "Upload Broken Pottery",
+    vaseContextLabel: "Artifact Description (Optional)",
+    vaseContextPlaceholder: "E.g., Greek black-figure amphora depicting Heracles, 6th Century BC...",
+    vaseContextHint: "Helping the AI identify the style improves pattern matching.",
+    vaseBtn: "Repair Artifact",
+    vaseResultTitle: "Restored Artifact",
+    vaseError: "Failed to reassemble the artifact. The pieces may be too scattered.",
+
+    // Security (formerly Frigated)
+    frigatedTitle: "Security Gateway",
+    frigatedSubtitle: "Secure connection to Frigate Network",
+    frigatedContent: "Access the secure Frigate database and tools provided by ARG_OS. Ensure you have proper authorization before proceeding to the external mainframe.",
+    frigatedBtn: "Authenticate & Enter",
+  },
+  tr: {
+    appTitle: "ARKEOAPP",
+    appSubtitle: "Dijital Arkeoloji Paketi",
+    apiKeyBtn: "API Anahtarı",
+    loading: "Arkeoapp Yükleniyor...",
+    connectKeyTitle: "API Anahtarı Bağla",
+    connectKeyDesc: "Yüksek kaliteli rekonstrüksiyon araçlarına (Gemini 3 Pro Image) erişmek için ücretli bir Google Cloud Projesi API anahtarı bağlamalısınız.",
+    connectKeyBtn: "API Anahtarı Bağla",
+    billingDocs: "Faturalandırma Belgelerini Görüntüle",
+    footerCopyright: "© {year} Arkeoapp. Gemini tarafından desteklenmektedir.",
+    footerTagline: "Geçmişi geleceğin zekasıyla gün yüzüne çıkarıyoruz.",
+
+    // Nav
+    navRestoration: "Site Restorasyonu",
+    navRestorationDesc: "Harabeleri antik ihtişamına kavuşturun",
+    navTranslation: "Metin Çözümleme",
+    navTranslationDesc: "Antik hiyeroglifleri ve metinleri çevirin",
+    navMosaic: "Mozaik Onarıcı",
+    navMosaicDesc: "Parçalanmış antik sanatı tamamlayın",
+    navVase: "Seramik Onarımı",
+    navVaseDesc: "Kırık vazoları ve çömlekleri birleştirin",
+    navFrigated: "Güvenlik",
+    navFrigatedDesc: "Güvenli Dış Erişim",
+
+    // Common
+    uploadImage: "Resim Yükle",
+    uploadFormat: "JPG, PNG desteklenir",
+    clickToChange: "Resmi değiştirmek için tıklayın",
+    loadingSpinner: "Kahinlere danışılıyor...",
+    permissionError: "İzin reddedildi. API Anahtarınızın bu modele erişimi olmayabilir. Lütfen ücretli bir proje anahtarı seçin.",
+    changeKey: "Anahtarı Değiştir",
+    tryAgain: "Tekrar Dene",
+    download: "Sonucu İndir",
+    before: "ÖNCE",
+    after: "SONRA",
+    dragSlider: "Karşılaştırmak için kaydırıcıyı sürükleyin.",
+    broken: "KIRIK",
+    restored: "ONARILMIŞ",
+    original: "ORİJİNAL",
+    fragment: "PARÇA",
+    completed: "TAMAMLANMIŞ",
+
+    // Restoration
+    restorationTitle: "Mimari Restorasyon",
+    restorationSubtitle: "Antik ihtişamını ortaya çıkarmak için bir harabe veya modern alan fotoğrafı yükleyin.",
+    restorationLabel: "Restore Edilecek Alanı Seçin",
+    restorationContextLabel: "Arkeolog Saha Notları (İsteğe Bağlı)",
+    restorationContextPlaceholder: "Örn: Roma Forumu, Jüpiter Tapınağı, MS 1. Yüzyıl. Burası mermer sütunlu ve kırmızı kiremit çatılı halka açık bir toplanma yeriydi...",
+    restorationContextHint: "Bağlam sağlamak, yapay zekanın ayrıntıları doğru bir şekilde yeniden oluşturmasına yardımcı olur.",
+    restorationBtn: "Restorasyonu Başlat",
+    restorationResultTitle: "Restore Edilmiş Görünüm",
+    restorationError: "Resim restore edilemedi. Ruhlar bugün sessiz.",
+
+    // Translation
+    translationTitle: "Epigrafik Çevirmen",
+    translationSubtitle: "Çevirmek için antik bir yazıtın (taş, papirüs, kil tablet) görüntüsünü yükleyin.",
+    translationLabel: "Antik Metin Yükle",
+    translationTargetLabel: "Hedef Dil",
+    translationBtn: "Metni Çöz",
+    translationError: "Metin çözülemedi. Çok aşınmış veya belirsiz olabilir.",
+
+    // Mosaic
+    mosaicTitle: "Mozaik Rekonstrüksiyonu",
+    mosaicSubtitle: "Kusursuz bir şekilde tamamlanmış halini görmek için parçalanmış bir mozaik yükleyin.",
+    mosaicLabel: "Mozaik Parçası Yükle",
+    mosaicContextLabel: "Mozaik Detayları (İsteğe Bağlı)",
+    mosaicContextPlaceholder: "Örn: Aslan avını betimleyen Roma taban mozaiği, 2. Yüzyıl Antakya stili...",
+    mosaicContextHint: "Detay sağlamak, yapay zekanın eksik figürleri doğru bir şekilde doldurmasına yardımcı olur.",
+    mosaicBtn: "Deseni Tamamla",
+    mosaicResultTitle: "Tamamlanmış Şaheser",
+    mosaicError: "Mozaik deseni tamamlanamadı.",
+
+    // Vase
+    vaseTitle: "Seramik Rekonstrüksiyonu",
+    vaseSubtitle: "Kırık çömlekleri, vazoları ve kil eserleri dijital olarak yeniden birleştirin.",
+    vaseLabel: "Kırık Çömlek Yükle",
+    vaseContextLabel: "Eser Açıklaması (İsteğe Bağlı)",
+    vaseContextPlaceholder: "Örn: Herakles'i betimleyen Yunan siyah figürlü amfora, MÖ 6. Yüzyıl...",
+    vaseContextHint: "Stilin belirlenmesine yardımcı olmak, desen eşleştirmesini iyileştirir.",
+    vaseBtn: "Eseri Onar",
+    vaseResultTitle: "Restore Edilmiş Eser",
+    vaseError: "Eser yeniden birleştirilemedi. Parçalar çok dağınık olabilir.",
+    
+    // Security (formerly Frigated)
+    frigatedTitle: "Güvenlik Portalı",
+    frigatedSubtitle: "Frigate Ağına Güvenli Bağlantı",
+    frigatedContent: "ARG_OS tarafından sağlanan güvenli Frigate veritabanına ve araçlarına erişin. Harici ana bilgisayara ilerlemeden önce uygun yetkiye sahip olduğunuzdan emin olun.",
+    frigatedBtn: "Kimlik Doğrula ve Gir",
+  }
+};
