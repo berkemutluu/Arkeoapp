@@ -2,7 +2,7 @@
 Flame takımı olarak, Arkeolojinin sadece kazı alanında kalmaması, insanlar ile paylaşılabilir ve daha ulaşılabilir hale getirebilmek için Arkeoapp’i tasarladık.
 
 ArkeoApp, AI Destekli Arkeoloji ve Dijital Koruma Platformu
-ArkeoApp, arkeolojik alanların dijital olarak korunması, analiz edilmesi ve güvenliğinin sağlanması için geliştirilmiş, yapay zekâ destekli modüler bir platformdur.
+ArkeoApp, arkeolojik alanların korunması, analiz edilmesi ve güvenliğinin sağlanması için geliştirilmiş, yapay zekâ destekli modüler bir platformdur.
 
 <img width="1174" height="1041" alt="Screenshot 2026-02-04 at 17 19 16" src="https://github.com/user-attachments/assets/eb8e28b6-0915-4d49-b8d6-19043e1d22fb" />
 
