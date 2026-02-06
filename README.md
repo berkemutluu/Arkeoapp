@@ -1,4 +1,6 @@
-# Arkeoapp
+# Arkeoapp ©️
+Copyright protected - Patent Pending
+
 Flame takımı olarak, Arkeolojinin sadece kazı alanında kalmaması, insanlar ile paylaşılabilir ve daha ulaşılabilir hale getirebilmek için Arkeoapp’i tasarladık.
 
 ArkeoApp, AI Destekli Arkeoloji ve Dijital Koruma Platformu
